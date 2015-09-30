@@ -14,7 +14,7 @@ import org.json.JSONException;
 import java.io.IOException;
 
 /**
- * Created by Vishal on 20/11/2014.
+ * Created by Manisha on 20/11/2014.
  */
 public class ExternalServiceHandler {
     public JSONArray getAllHotels() {
