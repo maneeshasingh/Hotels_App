@@ -15,7 +15,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 
 /**
- * Created by Vishal on 21/11/2014.
+ * Created by Manisha on 21/11/2014.
  */
 public class BookingDetails extends Activity {
 
