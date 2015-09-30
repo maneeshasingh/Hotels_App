@@ -39,18 +39,11 @@ public class MyActivity extends Activity
                }
            }
          });
-
-
-
-            }
-
-
-    public void setListAdapter(JSONArray jsonArray) {
+      }
+        public void setListAdapter(JSONArray jsonArray) {
         this.jsonArray=jsonArray;
         this.GetHotelListView.setAdapter(new GetHotelListViewAdapter(jsonArray,this));
     }
-
-
     /**
      * Async task class to get json by making HTTP call
      */
@@ -72,18 +65,4 @@ public class MyActivity extends Activity
 
 }
 
-
-
-            /**
-             * Updating parsed JSON data into ListView
-             * */
-           // ListAdapter adapter = new SimpleAdapter(
-            //        MyActivity.this, contactList,
-            //        R.layout.list_item, new String[] { TAG_NAME, TAG_EMAIL,
-            //        //TAG_PHONE_MOBILE
-           // }, new int[] { R.id.name,
-             //       R.id.email, R.id.mobile });
-
-           // setListAdapter(adapter);
-       // }
 
