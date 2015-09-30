@@ -14,7 +14,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by Vishal on 20/11/2014.
+ * Created by Manisha on 20/11/2014.
  */
 public class GetHotelListViewAdapter extends BaseAdapter {
     private JSONArray dataArray;
